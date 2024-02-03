@@ -1,0 +1,107 @@
+/* Write CSS below */
+body {
+    background-color: rgb(4, 4, 35);
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-family: font-family: 'Fjalla One', sans-serif;
+    font-size: 75px;
+    Color: white;
+    text-align: center;
+    letter-spacing: 0.5px
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #030637, #3C0753);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #030637, #3C0753);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+
+.profile {
+    width: 300px;
+    border: 10px double rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+}
+
+.about-me {
+    background-color: #898989;
+    color: white;
+    border: 5px solid white;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+    Color: rgb(221, 170, 255);
+
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+}
+
+.picture {
+    width: 250px;
+    height: 285px;
+    border-radius: 10%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+#Australia {
+    display: block;
+    margin-left: 75%;
+    margin-right: auto;
+    margin-top: -75px;
+}
+
+.biography1 {
+    background-color: #898989;
+    border-radius: 10%;
+    border: 2px solid rgb(44, 44, 44);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.biography2 {
+    background-color: #898989;
+    border-radius: 10%;
+    padding: 10px;
+
+}
